@@ -6,8 +6,6 @@ import OrderVolume from "../app/modules/orderVolume";
 import SupplierRanking from "../app/modules/suppliersRanking";
 import IncomingDeliveries from "../app/modules/incomingDeliveries";
 
-
-
 jest.mock("Chart.js", () => null);
 jest.mock("react-chartkick", () => ({
   LineChart: () => null,
